@@ -1,0 +1,220 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.Api\\DictionnaireProject.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.Api\\DictionnaireProject.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.Api\\DictionnaireProject.Api.csproj",
+        "projectName": "DictionnaireProject.Api",
+        "projectPath": "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.Api\\DictionnaireProject.Api.csproj",
+        "packagesPath": "C:\\Users\\elkha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elkha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.Core\\DictionnaireProject.Core.csproj": {
+                "projectPath": "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.Core\\DictionnaireProject.Core.csproj"
+              },
+              "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.DataAccess\\DictionnaireProject.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.DataAccess\\DictionnaireProject.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.HttpsPolicy": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.Core\\DictionnaireProject.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.Core\\DictionnaireProject.Core.csproj",
+        "projectName": "DictionnaireProject.Core",
+        "projectPath": "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.Core\\DictionnaireProject.Core.csproj",
+        "packagesPath": "C:\\Users\\elkha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elkha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.DataAccess\\DictionnaireProject.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.DataAccess\\DictionnaireProject.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.DataAccess\\DictionnaireProject.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.DataAccess\\DictionnaireProject.DataAccess.csproj",
+        "projectName": "DictionnaireProject.DataAccess",
+        "projectPath": "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.DataAccess\\DictionnaireProject.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\elkha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elkha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

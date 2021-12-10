@@ -1,0 +1,13 @@
+C:\Users\elkha\source\repos\med09122021\DictionnaireProject\DictionnaireProject.Core\bin\Debug\netcoreapp3.1\DictionnaireProject.Core.deps.json
+C:\Users\elkha\source\repos\med09122021\DictionnaireProject\DictionnaireProject.Core\bin\Debug\netcoreapp3.1\DictionnaireProject.Core.dll
+C:\Users\elkha\source\repos\med09122021\DictionnaireProject\DictionnaireProject.Core\bin\Debug\netcoreapp3.1\DictionnaireProject.Core.pdb
+C:\Users\elkha\source\repos\med09122021\DictionnaireProject\DictionnaireProject.Core\obj\Debug\netcoreapp3.1\DictionnaireProject.Core.csproj.AssemblyReference.cache
+C:\Users\elkha\source\repos\med09122021\DictionnaireProject\DictionnaireProject.Core\obj\Debug\netcoreapp3.1\DictionnaireProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elkha\source\repos\med09122021\DictionnaireProject\DictionnaireProject.Core\obj\Debug\netcoreapp3.1\DictionnaireProject.Core.AssemblyInfoInputs.cache
+C:\Users\elkha\source\repos\med09122021\DictionnaireProject\DictionnaireProject.Core\obj\Debug\netcoreapp3.1\DictionnaireProject.Core.AssemblyInfo.cs
+C:\Users\elkha\source\repos\med09122021\DictionnaireProject\DictionnaireProject.Core\obj\Debug\netcoreapp3.1\DictionnaireProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\elkha\source\repos\med09122021\DictionnaireProject\DictionnaireProject.Core\obj\Debug\netcoreapp3.1\DictionnaireProject.Core.dll
+C:\Users\elkha\source\repos\med09122021\DictionnaireProject\DictionnaireProject.Core\obj\Debug\netcoreapp3.1\DictionnaireProject.Core.pdb
+C:\Users\elkha\source\repos\med09122021\DictionnaireProject\DictionnaireProject.Core\bin\Debug\netcoreapp3.1\DictionnaireProject.DataAccess.dll
+C:\Users\elkha\source\repos\med09122021\DictionnaireProject\DictionnaireProject.Core\bin\Debug\netcoreapp3.1\DictionnaireProject.DataAccess.pdb
+C:\Users\elkha\source\repos\med09122021\DictionnaireProject\DictionnaireProject.Core\obj\Debug\netcoreapp3.1\DictionnaireProject.Core.csproj.CopyComplete

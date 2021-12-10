@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "85KLRKCxcwwTSoOR/r4vlsvyNgj0pvIgA6/BIbIvIhuN7DZ6rKiOxtpf21Jpcn7SbHe7vEfiyXW83/yuJ66wXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\elkha\\source\\repos\\DictionnaireProjet\\DictionnaireProject.Core\\DictionnaireProject.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elkha\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

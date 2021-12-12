@@ -16,12 +16,14 @@ namespace DictionnaireProject.DataAccess.Repositories
 {
    public class DataRepository : IApiRepository
     {
+        public string apiResponse { get; private set; }
         public async Task<object> GetWith1Input(string keyFirst)
         {
             try
             {
-                string apiResponse;
-                string url = Apis.ApiUrlData;
+                
+
+                 string url = Apis.ApiUrlData;
                 using (var httpClient = new HttpClient())
                 {
                     using (var response = await httpClient.GetAsync(url + keyFirst))

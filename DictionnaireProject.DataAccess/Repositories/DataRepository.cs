@@ -1,18 +1,16 @@
 ﻿ 
 using System;
-using System.Collections.Generic;
-using System.Linq;
+ 
 using System.Threading.Tasks;
 using System.Net.Http;
 using Newtonsoft.Json;
-using DictionnaireProject.DataAccess.Constants.Api;
-using DictionnaireProject.DataAccess.Constants.Standards;
+using DictionnaireProject.DataAccess.Constants.Api; 
 
 using System.Net;
 using DictionnaireProject.DataAccess.Interfaces;
 using DictionnaireProject.DataAccess.Exceptions;
 using DictionnaireProject.DataAccess.Exceptions.Constants;
-using Newtonsoft.Json.Linq;
+ 
 
 namespace DictionnaireProject.DataAccess.Repositories
 {
@@ -23,7 +21,6 @@ namespace DictionnaireProject.DataAccess.Repositories
             try
             {
                 string apiResponse;
-                var returnData = new List<object>();
                 string url = Apis.ApiUrlData;
                 using (var httpClient = new HttpClient())
                 {

@@ -60,7 +60,7 @@ namespace DictionnaireProject.Api.UnitTest
         [InlineData("sœur")]
         [InlineData("journée")]
         [InlineData("journal")]
-        public async Task Should_Value_When_The_Input_Equals_KeyWordsInputsType(String KeyWordInput)
+        public async Task SHould_Return_Result_When_The_Input_Equals_KeyWordsInputsType(String KeyWordInput)
         {
             //Arrange
             var dictionnaireController = new DictionnaireController(_iapiServices.Object);

@@ -14,10 +14,10 @@ using DictionnaireProject.DataAccess.Exceptions.Constants;
 
 namespace DictionnaireProject.DataAccess.Repositories
 {
-    public class DataRepository : IApiRepository
+    public class DataRepository : IApiRepository<string>
     {
 
-        public async Task<object> GetWith1Input(string keyFirst)
+        public async Task<string> GetWith1Input(string keyFirst)
         {
             try
             {

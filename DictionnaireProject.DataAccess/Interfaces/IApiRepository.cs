@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace DictionnaireProject.DataAccess.Interfaces
 {
-    public interface IApiRepository
+    public interface IApiRepository<T>
     {
-        Task<object> GetWith1Input(string keyFirst);
+        Task<T> GetWith1Input(String keyFirst);
     }
 }

@@ -45,7 +45,7 @@ namespace DictionnaireProject.Api
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Dictionnaire API", Version = "v1" });
             });
             services.AddScoped<IApiServices, DataServices>();
-            services.AddScoped<IApiRepository, DataRepository>();
+            services.AddScoped<IApiRepository<string>, DataRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

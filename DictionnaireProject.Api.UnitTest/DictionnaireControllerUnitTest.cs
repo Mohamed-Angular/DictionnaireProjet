@@ -10,7 +10,7 @@ using Xunit;
 using EX = DictionnaireProject.Core.Exceptions.Constants.MessagesConstantes;
 namespace DictionnaireProject.Api.UnitTest
 {
-    [ExcludeFromCodeCoverage]
+ 
     public class DictionnaireControllerUnitTest
     {
         private readonly Mock<IApiServices> _iapiServices;
@@ -19,8 +19,9 @@ namespace DictionnaireProject.Api.UnitTest
         {
             _iapiServices = new Mock<IApiServices>();
         }
+
         [Fact]
-        public async Task Should_Throw_BadRequestException_When_Inputs_With_Is_Null()
+        public async Task Should_Throw_BadRequestException_When_Inputs_Is_Null()
         {
             //Arrange
             var dictionnaireController = new DictionnaireController(_iapiServices.Object);
